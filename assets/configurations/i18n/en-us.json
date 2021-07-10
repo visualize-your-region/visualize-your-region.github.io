@@ -1,1 +1,317 @@
-{"app":{"name":"Visualize Your Region","menu":{"home":"Home","map":"State View","projects":"Projects","comparison":"Comparator","region-details":"Region Details","top-n":"Top N","parametric-search":"Parametrized Search"},"user-options":{"profile":"Profile","logout":"Logout","language":{"title":"Language","options":{"pt-br":"Português Brasileiro","en-us":"Inglês"}}},"header":{"filters":"Filters","state-selector-label":"State","period-selector-label":"Period","project-selector-label":"Project"},"non-menu-items":{"region-details":"Region Details"}},"common":{"cancel":"Cancel","back":"Go back","confirm":"Confirm","all-periods":"All periods"},"model-constants":{"state":"State","microregion":"Microregion","microregions":"Microregions","mesoregion":"Mesoregion","mesoregions":"Mesoregions","municipy":"Municipy","municipalities":"Municipalities"},"home":{"toolbar-title":"Select the global Parameters","card-state-title":"Select the reference State","card-period-title":"Select the reference Period"},"map-view":{"toolbar-title":"State View","on-state":"On the state","more-details":"More Details","zoom-out":"Zoom out","zoom-out-tooltip":"Zoom-out. You may also hold SHIFT or CTRL and click on the locality to apply the zoom reduction","zoom-out-tooltip-ios":"Zoom-out. You may also hold CMD, SHIFT or CTRL and click on the locality to apply the zoom reduction","values-card":{"title":"Values found in the locality"},"filters-modal":{"title":"Filters","apply":"Apply Filters","reset":"Clean Filters"},"state-map":{"not-informed":"N/A","interest-data":"Interest Data","color-strategy":"Color Strategy","selected-locality":"Selected Locality","chips":{"min-max":"Min/Max","percentile":"Percentile","log":"Log","balance":"Balance"},"chips-help":{"min-max":"Defines ranges of values from the minimum value and the maximum attribute value in the selected period","percentile":"Uses the statistical concept of percentiles to define percentile ranges in which attributes are added","log":"In order to solve the problem of distortion by a large range of values on the map, the log strategy normalizes these values and defines intervals similar to Min / Max","balance":"Ideal coloring strategy to observe values that can be positive and / or negative"},"ignore-zero":"Highlight zero value"},"evolution":{"title":"Evolution"}},"projects":{"no-results":"No results found for the filter: ","no-projects":"No projects have been created yet","options":{"download":"Download da Source Data","delete":"Delete Project","select":"Select Project"},"deletion":{"title":"Warning","content":"Are you sure you want to delete this project? It will not be possible to recover it after deletion","confirm":"Delete Project","cancel":"Cancel","success":"The project was successfully deleted","error":"There was a problem deleting the project"},"list":{"title":"Projects List","name":"Name","state":"State","options":"Options","filter":"Search for a project"},"creation":{"title":"Project Creation","name":"Name","state":"State to which the data refers to","create":"Create project","help":"Download the template, define the periods through the tabs (Ex: Tab 1 -> 2020, Tab 2 -> 2021), each column in addition to the ones in green (which should not be changed) refer to the column of a attribute that can be numeric or categorical (Text, such as \"yes \" and \"no\"). These attributes refer to the data that will be viewed, such as \"HDI\", \"Production Value\", among others.","download":"Click here to download the template for creating the project","upload-1":"Select or move here the base file for generating your project"}},"comparison":{"subtitle":"Choose two regions to compare the result between them","show-hierarchy":"Show hierarchical chains","show-averages":"Show averages","view-details":"More Details","outras-opcoes":"Other Options"},"details-general":{"title":"Select a region to see more details about it"},"details-municipy":{"all":"General data","drag-drop":{"characteristics":"Characteristics","interactive-general":{"title":"Choose the characteristics you want to see","content":"For the construction of the comparative graph of the characteristics, please select the desired characteristics in the drag & drop component below. Just click on the desired characteristic and drag it to the \"Selected Data\" field."}}},"details-microregion":{"all":"General Data","municipalities":"Municipalities belonging to this microregion","drag-drop":{"municipalities":"Municipalities","characteristics":"Characteristics","used-data":"Selected Data","interactive-general":{"title":"Choose the characteristics you want to see","content":"For the construction of the comparative graph of the characteristics, please select the desired characteristics in the drag & drop component below. Just click on the desired characteristic and drag it to the \"Selected Data \" field."},"interactive-municipalities":{"title":"Choose the Municipalities and Characteristics you want to see","content":"For the construction of the graphs, please select the municipalities and the desired characteristics in the drag & drop component below. Just click on the desired item and drag it to the \"Selected Data \" field."}}},"details-mesoregion":{"all":"General Data","municipalities":"Municipalities belonging to this mesoregion","microregion":"Microregions belonging to this mesoregion","drag-drop":{"municipalities":"Municipalities","microregion":"Microregions","characteristics":"Characteristics","used-data":"Selected Data","interactive-general":{"title":"Choose the characteristics you want to see","content":"For the construction of the comparative graph of the characteristics, please select the desired characteristics in the drag & drop component below. Just click on the desired feature and drag it to the \"Data Used\" field."},"interactive-microregion":{"title":"Choose the Microregions and Characteristics you want to see","content":"For the construction of the graphs, please select the microregions and the desired characteristics in the drag & drop component below. Just click on the desired item and drag it to the \"Selected Data\" field."},"interactive-municipalities":{"title":"Choose the Municipalities and Characteristics you want to see","content":"For the construction of the graphs, please select the municipalities and the desired characteristics in the drag & drop component below. Just click on the desired item and drag it to the \"Selected Data\" field."}}},"details-state":{"all":"General Data","municipalities":"Municipalities belonging to this State","microregion":"Microregions belonging to this State","mesoregion":"Mesoregions belonging to this State","drag-drop":{"municipalities":"Municipalities","microregion":"Microregions","mesoregion":"Mesoregions","characteristics":"Characteristics","used-data":"Selected Data","interactive-general":{"title":"Choose the characteristics you want to see","content":"For the construction of the comparative graph of the characteristics, please select the desired characteristics in the drag & drop component below. Just click on the desired feature and drag it to the \"Data Used\" field."},"interactive-mesoregion":{"title":"Choose the Mesoregions and Characteristics you want to see","content":"For the construction of the graphs, please select the microregions and the desired characteristics in the drag & drop component below. Just click on the desired item and drag it to the \"Selected Data\" field."},"interactive-microregion":{"title":"Choose the Microregions and Characteristics you want to see","content":"For the construction of the graphs, please select the microregions and the desired characteristics in the drag & drop component below. Just click on the desired item and drag it to the \"Selected Data\" field."},"interactive-municipalities":{"title":"Choose the Municipalities and Characteristics you want to see","content":"For the construction of the graphs, please select the municipalities and the desired characteristics in the drag & drop component below. Just click on the desired item and drag it to the \"Selected Data\" field."}}},"top-n":{"subtitle":"Choose attributes to view the N highest or lowest regions","microregions-in-mesoregion":"Microregions contained in Mesoregion","municipalities-in-microregion":"Municipalities contained in Microregion","header":{"num-elements":"Quantity of Elements (N)","attribute":"Attribute","period":"Period","toggle":"Show from the highest to the lowest","toggle-zero":"Ignore zero","submit":"Apply"}},"components":{"select-project-warning":{"title":"Please, select a project","content":"To use the VYR, it is necessary to select a project. You can do this by going to the projects page or using the filter icon in the upper right corner of the screen"},"expander":{"expand":"Click here to see a higher version of this component","close":"Click here to see the normal version of this component"},"region-selector":{"level":"Spatial Granularity","select-level":"Select a Spatial Granularity","input-name":"Type the name of a desired locality"}},"parametric-search":{"main":{"title":"Select the search criterion","box-title":"Select the search criterion","box-content":"On this screen you have the option of determining N filtering criteria and obtaining the mesoregions, microregions and municipalities that fit the rules defined by you. To do this, click on the filter button in the right corner of this screen."},"criterions":{"title":"Selected Parameters","help":"Decimal values can appear hidden for numbers starting at one thousand due to rounding. However, they will be considered in the calculation."},"fields":{"attribute":"Attribute","operation":"Operation","period":"Period","value":"Value","add-criterion":"Add"},"options":{"equal":"Equal","different":"Different","lower-than":"Lower than","lower-equal-than":"Lower or equal than","greater-than":"Higher than","greater-equal-than":"Higher or equal than","contain":"Contain","not-contain":"Does not Contain"},"modal":{"title":"Select the search criterions","clear-all":"Clean all"}},"uf":{"AC":"Acre","AL":"Alagoas","AP":"Amapá","AM":"Amazonas","BA":"Bahia","CE":"Ceará","ES":"Espírito Santo","GO":"Goiás","MA":"Maranhão","MT":"Mato Grosso","MS":"Mato Grosso do Sul","MG":"Minas Gerais","PA":"Pará","PB":"Paraíba","PR":"Paraná","PE":"Pernambuco","PI":"Piauí","RJ":"Rio de Janeiro","RN":"Rio Grande do Norte","RS":"Rio Grande do Sul","RO":"Rondônia","RR":"Roraima","SC":"Santa Catarina","SP":"São Paulo","SE":"Sergipe","TO":"Tocantins","DF":"Distrito Federal"}}
+{
+  "app": {
+    "name": "Visualize Your Region",
+    "menu": {
+      "home": "Home",
+      "map": "State View",
+      "projects": "Projects",
+      "comparison": "Comparator",
+      "region-details": "Region Details",
+      "top-n": "Ranking",
+      "parametric-search": "Parametrized Search"
+    },
+    "user-options": {
+      "profile": "Profile",
+      "logout": "Logout",
+      "language": {
+        "title": "Language",
+        "options": {
+          "pt-br": "Português Brasileiro",
+          "en-us": "Inglês"
+        }
+      }
+    },
+    "header": {
+      "filters": "Filters",
+      "state-selector-label": "State",
+      "period-selector-label": "Period",
+      "project-selector-label": "Project"
+    },
+    "non-menu-items": {
+      "region-details": "Region Details"
+    }
+  },
+  "common": {
+    "cancel": "Cancel",
+    "back": "Go back",
+    "confirm": "Confirm",
+    "all-periods": "All periods"
+  },
+  "model-constants": {
+    "state": "State",
+    "microregion": "Microregion",
+    "microregions": "Microregions",
+    "mesoregion": "Mesoregion",
+    "mesoregions": "Mesoregions",
+    "municipy": "Municipy",
+    "municipalities": "Municipalities"
+  },
+  "home": {
+    "toolbar-title": "Select the global Parameters",
+    "card-state-title": "Select the reference State",
+    "card-period-title": "Select the reference Period"
+  },
+  "map-view": {
+    "toolbar-title": "State View",
+    "on-state": "On the state",
+    "more-details": "More Details",
+    "zoom-out": "Zoom out",
+    "zoom-out-tooltip": "Zoom-out. You may also hold SHIFT or CTRL and click on the locality to apply the zoom reduction",
+    "zoom-out-tooltip-ios": "Zoom-out. You may also hold CMD, SHIFT or CTRL and click on the locality to apply the zoom reduction",
+    "values-card": {
+      "title": "Values found in the locality"
+    },
+    "filters-modal": {
+      "title": "Filters",
+      "apply": "Apply Filters",
+      "reset": "Clean Filters"
+    },
+    "state-map": {
+      "not-informed": "N/A",
+      "interest-data": "Interest Data",
+      "color-strategy": "Color Strategy",
+      "selected-locality": "Selected Locality",
+      "chips": {
+        "min-max": "Min/Max",
+        "percentile": "Percentile",
+        "log": "Log",
+        "balance": "Balance"
+      },
+      "chips-help": {
+        "min-max": "Defines ranges of values from the minimum value and the maximum attribute value in the selected period",
+        "percentile": "Uses the statistical concept of percentiles to define percentile ranges in which attributes are added",
+        "log": "In order to solve the problem of distortion by a large range of values on the map, the log strategy normalizes these values and defines intervals similar to Min / Max",
+        "balance": "Ideal coloring strategy to observe values that can be positive and / or negative"
+      },
+      "ignore-zero": "Highlight zero value"
+    },
+    "evolution": {
+      "title": "Evolution"
+    }
+  },
+  "projects": {
+    "no-results": "No results found for the filter: ",
+    "no-projects": "No projects have been created yet",
+    "options": {
+      "download": "Download da Source Data",
+      "delete": "Delete Project",
+      "select": "Select Project"
+    },
+    "deletion": {
+      "title": "Warning",
+      "content": "Are you sure you want to delete this project? It will not be possible to recover it after deletion",
+      "confirm": "Delete Project",
+      "cancel": "Cancel",
+      "success": "The project was successfully deleted",
+      "error": "There was a problem deleting the project"
+    },
+    "list": {
+      "title": "Projects List",
+      "name": "Name",
+      "state": "State",
+      "options": "Options",
+      "filter": "Search for a project"
+    },
+    "creation": {
+      "title": "Project Creation",
+      "name": "Name",
+      "state": "State to which the data refers to",
+      "create": "Create project",
+      "help": "Download the template, define the periods through the tabs (Ex: Tab 1 -> 2020, Tab 2 -> 2021), each column in addition to the ones in green (which should not be changed) refer to the column of a attribute that can be numeric or categorical (Text, such as \"yes \" and \"no\"). These attributes refer to the data that will be viewed, such as \"HDI\", \"Production Value\", among others.",
+      "download": "Click here to download the template for creating the project",
+      "upload-1": "Select or move here the base file for generating your project"
+    }
+  },
+  "comparison": {
+    "subtitle": "Choose two regions to compare the result between them",
+    "show-hierarchy": "Show hierarchical chains",
+    "show-hierarchy-help": "Show hierarchical data considering the level of the selected region (e.g. Municipy) across all the levels until the highest available level (State, in this case)",
+    "show-averages": "Show averages",
+    "show-averages-help": "Show the averages across the selected region hierarchy. As an example, if the selected region is a municipy, the average for all municipalities in the macrorregions that contain that municipy will be calculated as well",
+    "view-details": "More Details",
+    "info": {
+      "title": "Region Comparison",
+      "content": "Select two regions and see visualizations comparing the attributes of your project across these regions."
+    }
+  },
+  "details-general": {
+   "title": "Select a region to see more details about it"
+  },
+  "details-municipy": {
+    "all": "General data",
+    "drag-drop": {
+      "characteristics": "Characteristics",
+      "interactive-general": {
+        "title": "Choose the characteristics you want to see",
+        "content": "For the construction of the comparative graph of the characteristics, please select the desired characteristics in the drag & drop component below. Just click on the desired characteristic and drag it to the \"Selected Data\" field."
+      }
+    }
+  },
+  "details-microregion": {
+    "all": "General Data",
+    "municipalities": "Municipalities belonging to this microregion",
+    "drag-drop": {
+      "municipalities": "Municipalities",
+      "characteristics": "Characteristics",
+      "used-data": "Selected Data",
+      "interactive-general": {
+        "title": "Choose the characteristics you want to see",
+        "content": "For the construction of the comparative graph of the characteristics, please select the desired characteristics in the drag & drop component below. Just click on the desired characteristic and drag it to the \"Selected Data \" field."
+      },
+      "interactive-municipalities": {
+        "title": "Choose the Municipalities and Characteristics you want to see",
+        "content": "For the construction of the graphs, please select the municipalities and the desired characteristics in the drag & drop component below. Just click on the desired item and drag it to the \"Selected Data \" field."
+      }
+    }
+  },
+  "details-mesoregion": {
+    "all": "General Data",
+    "municipalities": "Municipalities belonging to this mesoregion",
+    "microregion": "Microregions belonging to this mesoregion",
+    "drag-drop": {
+      "municipalities": "Municipalities",
+      "microregion": "Microregions",
+      "characteristics": "Characteristics",
+      "used-data": "Selected Data",
+      "interactive-general": {
+        "title": "Choose the characteristics you want to see",
+        "content": "For the construction of the comparative graph of the characteristics, please select the desired characteristics in the drag & drop component below. Just click on the desired feature and drag it to the \"Data Used\" field."
+      },
+      "interactive-microregion": {
+        "title": "Choose the Microregions and Characteristics you want to see",
+        "content": "For the construction of the graphs, please select the microregions and the desired characteristics in the drag & drop component below. Just click on the desired item and drag it to the \"Selected Data\" field."
+      },
+      "interactive-municipalities": {
+        "title": "Choose the Municipalities and Characteristics you want to see",
+        "content": "For the construction of the graphs, please select the municipalities and the desired characteristics in the drag & drop component below. Just click on the desired item and drag it to the \"Selected Data\" field."
+      }
+    }
+  },
+  "details-state": {
+    "all": "General Data",
+    "municipalities": "Municipalities belonging to this State",
+    "microregion": "Microregions belonging to this State",
+    "mesoregion": "Mesoregions belonging to this State",
+    "drag-drop": {
+      "municipalities": "Municipalities",
+      "microregion": "Microregions",
+      "mesoregion": "Mesoregions",
+      "characteristics": "Characteristics",
+      "used-data": "Selected Data",
+      "interactive-general": {
+        "title": "Choose the characteristics you want to see",
+        "content": "For the construction of the comparative graph of the characteristics, please select the desired characteristics in the drag & drop component below. Just click on the desired feature and drag it to the \"Data Used\" field."
+      },
+      "interactive-mesoregion": {
+        "title": "Choose the Mesoregions and Characteristics you want to see",
+        "content": "For the construction of the graphs, please select the microregions and the desired characteristics in the drag & drop component below. Just click on the desired item and drag it to the \"Selected Data\" field."
+      },
+      "interactive-microregion": {
+        "title": "Choose the Microregions and Characteristics you want to see",
+        "content": "For the construction of the graphs, please select the microregions and the desired characteristics in the drag & drop component below. Just click on the desired item and drag it to the \"Selected Data\" field."
+      },
+      "interactive-municipalities": {
+        "title": "Choose the Municipalities and Characteristics you want to see",
+        "content": "For the construction of the graphs, please select the municipalities and the desired characteristics in the drag & drop component below. Just click on the desired item and drag it to the \"Selected Data\" field."
+      }
+    }
+  },
+  "top-n": {
+    "subtitle": "Choose attributes to view the N highest or lowest regions",
+    "microregions-in-mesoregion": "Microregions contained in Mesoregion",
+    "municipalities-in-microregion": "Municipalities contained in Microregion",
+    "info": {
+      "title": "Region ranking",
+      "content": "In this screen its possible to define parameters for ranking the regions that have the best or worse performance in relation to a specific attribute in a given period"
+    },
+    "header": {
+      "help-num-elements": "Quantity of elements to be shown like the number of municipalities, microrregions and mesorregions that will be shown",
+      "num-elements": "Quantity of Elements (N)",
+      "attribute": "Attribute",
+      "help-attribute": "Which attribute of your project you want to see ranked?",
+      "period": "Period",
+      "help-period": "Which period of your project you want to see ranked?",
+      "toggle": "Show from the highest to the lowest",
+      "toggle-help": "You want to see the data in ascendent or descendent order?",
+      "toggle-zero": "Ignore zero",
+      "toogle-zero-help": "Sometimes the 0 can cause problems in your visualization. Activate this if you want to ignore this value.",
+      "submit": "Apply"
+    }
+  },
+  "components": {
+    "select-project-warning": {
+      "title": "Please, select a project",
+      "content": "To use the VYR, it is necessary to select a project. You can do this by going to the projects page or using the filter icon in the upper right corner of the screen"
+    },
+    "expander": {
+      "expand": "Click here to see a higher version of this component",
+      "close": "Click here to see the normal version of this component"
+    },
+    "region-selector": {
+      "level": "Spatial Granularity",
+      "select-level": "Select a Spatial Granularity",
+      "input-name": "Type the name of a desired locality"
+    }
+  },
+  "parametric-search": {
+    "main": {
+      "title": "Select the search criterion",
+      "box-title": "Select the search criterion",
+      "box-content": "On this screen you have the option of determining N filtering criteria and obtaining the mesoregions, microregions and municipalities that fit the rules defined by you. To do this, click on the filter button in the right corner of this screen."
+    },
+    "criterions": {
+      "title": "Selected Parameters",
+      "help": "Decimal values can appear hidden for numbers starting at one thousand due to rounding. However, they will be considered in the calculation."
+    },
+    "fields": {
+      "attribute": "Attribute",
+      "operation": "Operation",
+      "period": "Period",
+      "value": "Value",
+      "add-criterion": "Add"
+    },
+    "options": {
+      "equal": "Equal",
+      "different": "Different",
+      "lower-than": "Lower than",
+      "lower-equal-than": "Lower or equal than",
+      "greater-than": "Higher than",
+      "greater-equal-than": "Higher or equal than",
+      "contain": "Contain",
+      "not-contain": "Does not Contain"
+    },
+    "modal": {
+      "title": "Select the search criterions",
+      "clear-all": "Clean all"
+    }
+  },
+  "uf": {
+    "AC": "Acre",
+    "AL": "Alagoas",
+    "AP": "Amapá",
+    "AM": "Amazonas",
+    "BA": "Bahia",
+    "CE": "Ceará",
+    "ES": "Espírito Santo",
+    "GO": "Goiás",
+    "MA": "Maranhão",
+    "MT": "Mato Grosso",
+    "MS": "Mato Grosso do Sul",
+    "MG": "Minas Gerais",
+    "PA": "Pará",
+    "PB": "Paraíba",
+    "PR": "Paraná",
+    "PE": "Pernambuco",
+    "PI": "Piauí",
+    "RJ": "Rio de Janeiro",
+    "RN": "Rio Grande do Norte",
+    "RS": "Rio Grande do Sul",
+    "RO": "Rondônia",
+    "RR": "Roraima",
+    "SC": "Santa Catarina",
+    "SP": "São Paulo",
+    "SE": "Sergipe",
+    "TO": "Tocantins",
+    "DF": "Distrito Federal"
+  }
+}

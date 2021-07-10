@@ -1,1 +1,317 @@
-{"app":{"name":"Visualize Your Region","menu":{"home":"Home","map":"Estado","projects":"Projetos","comparison":"Comparador","region-details":"Detalhes de Região","top-n":"Top N","parametric-search":"Busca Parametrizada"},"user-options":{"profile":"Profile","logout":"Logout","language":{"title":"Idioma","options":{"pt-br":"Português Brasileiro","en-us":"Inglês"}}},"header":{"filters":"Filtros","state-selector-label":"Estado","period-selector-label":"Período","project-selector-label":"Projeto"},"non-menu-items":{"region-details":"Detalhes da Região"}},"common":{"cancel":"Cancelar","back":"Voltar","confirm":"Confirmar","all-periods":"Todos os Períodos"},"model-constants":{"state":"Estado","microregion":"Microrregião","microregions":"Microrregiões","mesoregion":"Mesorregião","mesoregions":"Mesorregiões","municipy":"Município","municipalities":"Municípios"},"home":{"toolbar-title":"Selecione os parâmetros globais","card-state-title":"Selecione o estado de referência","card-period-title":"Selecione o período de referência"},"map-view":{"toolbar-title":"Visualização detalhada por Estado","on-state":"no Estado","more-details":"Mais Detalhes","zoom-out":"Zoom out","zoom-out-tooltip":"Zoom-out. Você também pode segurar a tecla SHIFT ou CTRL e clicar na localidade para realizar a redução do zoom","zoom-out-tooltip-ios":"Zoom-out. Você também pode segurar a tecla CMD ou OPTION ou SHIFT e clicar na localidade para realizar a redução do zoom","values-card":{"title":"Valores encontrados na localidade"},"filters-modal":{"title":"Filtros","apply":"Aplicar Filtros","reset":"Limpar Filtros"},"state-map":{"not-informed":"Não Informado","interest-data":"Dado de Interesse","color-strategy":"Estratégia de Coloração","selected-locality":"Localidade Selecionada","chips":{"min-max":"Min/Max","percentile":"Percentil","log":"Log","balance":"Balanço"},"chips-help":{"min-max":"Define faixas de valores a partir do valor mínimo e do valor máximo atributo no período selecionado","percentile":"Utiliza o conceito estatístico de percentis para definir faixas de percentis nos quais os atributos são adicionados","log":"Para resolver o problema de distorção por grande amplitude de valores no mapa a estratégia de log normaliza estes valores e define intervalos similares ao Min/Max","balance":"Estratégia de coloração ideal para observar valores que possam ser positivos e/ou negativos"},"ignore-zero":"Destacar valor zero"},"evolution":{"title":"Evolução"}},"projects":{"no-results":"Não foram encontrados resultados para o filtro: ","no-projects":"Ainda não foram criados projetos de visualização de dados","options":{"download":"Download da planilha-fonte","delete":"Deletar projeto","select":"Selecionar projeto"},"deletion":{"title":"Atenção","content":"Você tem certeza que deseja deletar esse projeto? Não será possível recuperá-lo após a deleção","confirm":"Deletar Projeto","cancel":"Cancelar","success":"Projeto deletado com sucesso","error":"Houve um problema na deleção do projeto"},"list":{"title":"Lista de Projetos","name":"Nome do Projeto","state":"Estado (UF)","options":"Opções","filter":"Procure por um projeto"},"creation":{"title":"Criação de Projeto","name":"Nome do Projeto","state":"Estado (UF) ao qual os dados se referem","create":"Criar Projeto","help":"Faça o download do template, defina os períodos através das abas (Ex: Aba 1 -> 2020, Aba 2 -> 2021), cada coluna além das que estão na cor verde (que não devem ser alteradas) se referem a coluna de um atributo que pode ser numérico ou categórico (Texto, como \"sim\" e \"não\"). Estes atributos se referem aos dados que serão visualizados, como \"IDH\", \"Valor de Produção\", entre outros.","download":"Clique aqui para realizar o download do template para criação do projeto","upload-1":"Selecione ou mova até aqui o arquivo-base para geração do seu projeto"}},"comparison":{"subtitle":"Escolha duas regiões para comparar o resultado entre elas","show-hierarchy":"Mostrar cadeias hierárquicas","show-averages":"Mostrar médias","view-details":"Mais detalhes","outras-opcoes":"Outras Opções"},"details-general":{"title":"Selecione uma região para ver mais detalhes sobre ela"},"details-municipy":{"all":"Dados Gerais","drag-drop":{"characteristics":"Características","interactive-general":{"title":"Selecione as características desejadas","content":"Para a construção do gráfico comparativo das características, por favor selecione as características desejadas no componente de drag & drop abaixo. Basta você clicar sobre a característica desejada e arrastar até o campo \"Dados Utilizados\"."}}},"details-microregion":{"all":"Dados Gerais","municipalities":"Municípios dessa microrregião","drag-drop":{"municipalities":"Municípios","characteristics":"Características","used-data":"Dados Utilizados","interactive-general":{"title":"Selecione as características desejadas","content":"Para a construção do gráfico comparativo das características, por favor selecione as características desejadas no componente de drag & drop abaixo. Basta você clicar sobre a característica desejada e arrastar até o campo \"Dados Utilizados\"."},"interactive-municipalities":{"title":"Selecione os municípios e as características desejadas","content":"Para a construção dos gráficos, por favor selecione os municípios e as características desejadas no componente de drag & drop abaixo. Basta você clicar sobre o item desejado e arrastar até o campo \"Dados Utilizados\"."}}},"details-mesoregion":{"all":"Dados Gerais","municipalities":"Municípios dessa mesorregião","microregion":"Microrregiões dessa mesorregião","drag-drop":{"municipalities":"Municípios","microregion":"Microrregiões","characteristics":"Características","used-data":"Dados Utilizados","interactive-general":{"title":"Selecione as características desejadas","content":"Para a construção do gráfico comparativo das características, por favor selecione as características desejadas no componente de drag & drop abaixo. Basta você clicar sobre a característica desejada e arrastar até o campo \"Dados Utilizados\"."},"interactive-microregion":{"title":"Selecione as microrregiões e as características desejadas","content":"Para a construção dos gráficos, por favor selecione as microrregiões e as características desejadas no componente de drag & drop abaixo. Basta você clicar sobre o item desejado e arrastar até o campo \"Dados Utilizados\"."},"interactive-municipalities":{"title":"Selecione os municípios e as características desejadas","content":"Para a construção dos gráficos, por favor selecione os municípios e as características desejadas no componente de drag & drop abaixo. Basta você clicar sobre o item desejado e arrastar até o campo \"Dados Utilizados\"."}}},"details-state":{"all":"Dados Gerais","municipalities":"Municípios desse Estado","microregion":"Microrregiões desse Estado","mesoregion":"Mesorregiões desse Estado","drag-drop":{"municipalities":"Municípios","microregion":"Microrregiões","mesoregion":"Mesorregiões","characteristics":"Características","used-data":"Dados Utilizados","interactive-general":{"title":"Selecione as características desejadas","content":"Para a construção do gráfico comparativo das características, por favor selecione as características desejadas no componente de drag & drop abaixo. Basta você clicar sobre a característica desejada e arrastar até o campo \"Dados Utilizados\"."},"interactive-mesoregion":{"title":"Selecione as mesorregiões e as características desejadas","content":"Para a construção dos gráficos, por favor selecione as microrregiões e as características desejadas no componente de drag & drop abaixo. Basta você clicar sobre o item desejado e arrastar até o campo \"Dados Utilizados\"."},"interactive-microregion":{"title":"Selecione as microrregiões e as características desejadas","content":"Para a construção dos gráficos, por favor selecione as microrregiões e as características desejadas no componente de drag & drop abaixo. Basta você clicar sobre o item desejado e arrastar até o campo \"Dados Utilizados\"."},"interactive-municipalities":{"title":"Selecione os municípios e as características desejadas","content":"Para a construção dos gráficos, por favor selecione os municípios e as características desejadas no componente de drag & drop abaixo. Basta você clicar sobre o item desejado e arrastar até o campo \"Dados Utilizados\"."}}},"top-n":{"subtitle":"Escolha os atributos para visualizar as N regiões mais altas ou baixas","microregions-in-mesoregion":"Microrregiões contidas na Mesorregião","municipalities-in-microregion":"Municípios contidos na Microrregião","header":{"num-elements":"N° de Elementos","attribute":"Atributo Desejado","period":"Período Desejado","toggle":"Exibir dos maiores para menores","toggle-zero":"Ignorar zero","submit":"Aplicar"}},"components":{"select-project-warning":{"title":"Por favor, selecione um projeto","content":"Para utilização do VYR é necessária a seleção de um projeto. Você pode fazer isso indo até a página de projetos ou utilizando o ícone de filtro no canto superior direito da tela."},"expander":{"expand":"Clique para ver este componente em tela inteira","close":"Clique para ver este componente em tela normal"},"region-selector":{"level":"Nível de região","select-level":"Selecione um nível de região","input-name":"Digite o nome da localidade desejada"}},"parametric-search":{"main":{"title":"Selecione os critérios da busca","box-title":"Selecione critérios de busca","box-content":"Nesta tela você tem a opção de determinar N critérios de filtragem e obter as mesorregiões, microrregiões e municípios que se encaixem nas regras definidas por você. Para tal, clique no botão de filtro no canto direito desta tela."},"criterions":{"title":"Parâmetros selecionados","help":"Os valores podem decimais podem aparecer ocultados para números a partir de mil por conta do arredondamento. Entretanto, eles serão considerados no cálculo."},"fields":{"attribute":"Atributo","operation":"Operação","period":"Período","value":"Valor","add-criterion":"Adicionar"},"options":{"equal":"Igual","different":"Diferente","lower-than":"Menor que","lower-equal-than":"Menor ou igual a","greater-than":"Maior que","greater-equal-than":"Maior ou igual a","contain":"Contém","not-contain":"Não Contém"},"modal":{"title":"Selecione os critérios de busca desejados","clear-all":"Limpar todos"}},"uf":{"AC":"Acre","AL":"Alagoas","AP":"Amapá","AM":"Amazonas","BA":"Bahia","CE":"Ceará","ES":"Espírito Santo","GO":"Goiás","MA":"Maranhão","MT":"Mato Grosso","MS":"Mato Grosso do Sul","MG":"Minas Gerais","PA":"Pará","PB":"Paraíba","PR":"Paraná","PE":"Pernambuco","PI":"Piauí","RJ":"Rio de Janeiro","RN":"Rio Grande do Norte","RS":"Rio Grande do Sul","RO":"Rondônia","RR":"Roraima","SC":"Santa Catarina","SP":"São Paulo","SE":"Sergipe","TO":"Tocantins","DF":"Distrito Federal"}}
+{
+  "app": {
+    "name": "Visualize Your Region",
+    "menu": {
+      "home": "Home",
+      "map": "Estado",
+      "projects": "Projetos",
+      "comparison": "Comparador",
+      "region-details": "Detalhes de Região",
+      "top-n": "Ranking",
+      "parametric-search": "Busca Parametrizada"
+    },
+    "user-options": {
+      "profile": "Profile",
+      "logout": "Logout",
+      "language": {
+        "title": "Idioma",
+        "options": {
+          "pt-br": "Português Brasileiro",
+          "en-us": "Inglês"
+        }
+      }
+    },
+    "header": {
+      "filters": "Filtros",
+      "state-selector-label": "Estado",
+      "period-selector-label": "Período",
+      "project-selector-label": "Projeto"
+    },
+    "non-menu-items": {
+      "region-details": "Detalhes da Região"
+    }
+  },
+  "common": {
+    "cancel": "Cancelar",
+    "back": "Voltar",
+    "confirm": "Confirmar",
+    "all-periods": "Todos os Períodos"
+  },
+  "model-constants": {
+    "state": "Estado",
+    "microregion": "Microrregião",
+    "microregions": "Microrregiões",
+    "mesoregion": "Mesorregião",
+    "mesoregions": "Mesorregiões",
+    "municipy": "Município",
+    "municipalities": "Municípios"
+  },
+  "home": {
+    "toolbar-title": "Selecione os parâmetros globais",
+    "card-state-title": "Selecione o estado de referência",
+    "card-period-title": "Selecione o período de referência"
+  },
+  "map-view": {
+    "toolbar-title": "Visualização detalhada por Estado",
+    "on-state": "no Estado",
+    "more-details": "Mais Detalhes",
+    "zoom-out": "Zoom out",
+    "zoom-out-tooltip": "Zoom-out. Você também pode segurar a tecla SHIFT ou CTRL e clicar na localidade para realizar a redução do zoom",
+    "zoom-out-tooltip-ios": "Zoom-out. Você também pode segurar a tecla CMD ou OPTION ou SHIFT e clicar na localidade para realizar a redução do zoom",
+    "values-card": {
+      "title": "Valores encontrados na localidade"
+    },
+    "filters-modal": {
+      "title": "Filtros",
+      "apply": "Aplicar Filtros",
+      "reset": "Limpar Filtros"
+    },
+    "state-map": {
+      "not-informed": "Não Informado",
+      "interest-data": "Dado de Interesse",
+      "color-strategy": "Estratégia de Coloração",
+      "selected-locality": "Localidade Selecionada",
+      "chips": {
+        "min-max": "Min/Max",
+        "percentile": "Percentil",
+        "log": "Log",
+        "balance": "Balanço"
+      },
+      "chips-help": {
+        "min-max": "Define faixas de valores a partir do valor mínimo e do valor máximo atributo no período selecionado",
+        "percentile": "Utiliza o conceito estatístico de percentis para definir faixas de percentis nos quais os atributos são adicionados",
+        "log": "Para resolver o problema de distorção por grande amplitude de valores no mapa a estratégia de log normaliza estes valores e define intervalos similares ao Min/Max",
+        "balance": "Estratégia de coloração ideal para observar valores que possam ser positivos e/ou negativos"
+      },
+      "ignore-zero": "Destacar valor zero"
+    },
+    "evolution": {
+      "title": "Evolução"
+    }
+  },
+  "projects": {
+    "no-results": "Não foram encontrados resultados para o filtro: ",
+    "no-projects": "Ainda não foram criados projetos de visualização de dados",
+    "options": {
+      "download": "Download da planilha-fonte",
+      "delete": "Deletar projeto",
+      "select": "Selecionar projeto"
+    },
+    "deletion": {
+      "title": "Atenção",
+      "content": "Você tem certeza que deseja deletar esse projeto? Não será possível recuperá-lo após a deleção",
+      "confirm": "Deletar Projeto",
+      "cancel": "Cancelar",
+      "success": "Projeto deletado com sucesso",
+      "error": "Houve um problema na deleção do projeto"
+    },
+    "list": {
+      "title": "Lista de Projetos",
+      "name": "Nome do Projeto",
+      "state": "Estado (UF)",
+      "options": "Opções",
+      "filter": "Procure por um projeto"
+    },
+    "creation": {
+      "title": "Criação de Projeto",
+      "name": "Nome do Projeto",
+      "state": "Estado (UF) ao qual os dados se referem",
+      "create": "Criar Projeto",
+      "help": "Faça o download do template, defina os períodos através das abas (Ex: Aba 1 -> 2020, Aba 2 -> 2021), cada coluna além das que estão na cor verde (que não devem ser alteradas) se referem a coluna de um atributo que pode ser numérico ou categórico (Texto, como \"sim\" e \"não\"). Estes atributos se referem aos dados que serão visualizados, como \"IDH\", \"Valor de Produção\", entre outros.",
+      "download": "Clique aqui para realizar o download do template para criação do projeto",
+      "upload-1": "Selecione ou mova até aqui o arquivo-base para geração do seu projeto"
+    }
+  },
+  "comparison": {
+    "subtitle": "Escolha duas regiões para comparar o resultado entre elas",
+    "show-hierarchy": "Mostrar cadeias hierárquicas",
+    "show-hierarchy-help": "Apresenta os dados deste atributo para toda a hierarquia de região, que vai desde o nível da região selecionada (por exemplo Município) até o mais alto nível disponível (Estado, no caso)",
+    "show-averages": "Mostrar médias",
+    "show-averages-help": "Apresenta as médias da hierarquia em relação ao nível de região selecionado. Por exemplo, para um município, será apresentada a média do valor do atributo selecionado em relação a todos municípios dentro de um nível de região superior como uma microrregião, mesorregião ou estado",
+    "view-details": "Mais detalhes",
+    "info": {
+      "title": "Comparação de Regiões",
+      "content": "Selecione duas regiões e tenha acesso a visualizações comparando ambas regiões."
+    }
+  },
+  "details-general": {
+   "title": "Selecione uma região para ver mais detalhes sobre ela"
+  },
+  "details-municipy": {
+    "all": "Dados Gerais",
+    "drag-drop": {
+      "characteristics": "Características",
+      "interactive-general": {
+        "title": "Selecione as características desejadas",
+        "content": "Para a construção do gráfico comparativo das características, por favor selecione as características desejadas no componente de drag & drop abaixo. Basta você clicar sobre a característica desejada e arrastar até o campo \"Dados Utilizados\"."
+      }
+    }
+  },
+  "details-microregion": {
+    "all": "Dados Gerais",
+    "municipalities": "Municípios dessa microrregião",
+    "drag-drop": {
+      "municipalities": "Municípios",
+      "characteristics": "Características",
+      "used-data": "Dados Utilizados",
+      "interactive-general": {
+        "title": "Selecione as características desejadas",
+        "content": "Para a construção do gráfico comparativo das características, por favor selecione as características desejadas no componente de drag & drop abaixo. Basta você clicar sobre a característica desejada e arrastar até o campo \"Dados Utilizados\"."
+      },
+      "interactive-municipalities": {
+        "title": "Selecione os municípios e as características desejadas",
+        "content": "Para a construção dos gráficos, por favor selecione os municípios e as características desejadas no componente de drag & drop abaixo. Basta você clicar sobre o item desejado e arrastar até o campo \"Dados Utilizados\"."
+      }
+    }
+  },
+  "details-mesoregion": {
+    "all": "Dados Gerais",
+    "municipalities": "Municípios dessa mesorregião",
+    "microregion": "Microrregiões dessa mesorregião",
+    "drag-drop": {
+      "municipalities": "Municípios",
+      "microregion": "Microrregiões",
+      "characteristics": "Características",
+      "used-data": "Dados Utilizados",
+      "interactive-general": {
+        "title": "Selecione as características desejadas",
+        "content": "Para a construção do gráfico comparativo das características, por favor selecione as características desejadas no componente de drag & drop abaixo. Basta você clicar sobre a característica desejada e arrastar até o campo \"Dados Utilizados\"."
+      },
+      "interactive-microregion": {
+        "title": "Selecione as microrregiões e as características desejadas",
+        "content": "Para a construção dos gráficos, por favor selecione as microrregiões e as características desejadas no componente de drag & drop abaixo. Basta você clicar sobre o item desejado e arrastar até o campo \"Dados Utilizados\"."
+      },
+      "interactive-municipalities": {
+        "title": "Selecione os municípios e as características desejadas",
+        "content": "Para a construção dos gráficos, por favor selecione os municípios e as características desejadas no componente de drag & drop abaixo. Basta você clicar sobre o item desejado e arrastar até o campo \"Dados Utilizados\"."
+      }
+    }
+  },
+  "details-state": {
+    "all": "Dados Gerais",
+    "municipalities": "Municípios desse Estado",
+    "microregion": "Microrregiões desse Estado",
+    "mesoregion": "Mesorregiões desse Estado",
+    "drag-drop": {
+      "municipalities": "Municípios",
+      "microregion": "Microrregiões",
+      "mesoregion": "Mesorregiões",
+      "characteristics": "Características",
+      "used-data": "Dados Utilizados",
+      "interactive-general": {
+        "title": "Selecione as características desejadas",
+        "content": "Para a construção do gráfico comparativo das características, por favor selecione as características desejadas no componente de drag & drop abaixo. Basta você clicar sobre a característica desejada e arrastar até o campo \"Dados Utilizados\"."
+      },
+      "interactive-mesoregion": {
+        "title": "Selecione as mesorregiões e as características desejadas",
+        "content": "Para a construção dos gráficos, por favor selecione as microrregiões e as características desejadas no componente de drag & drop abaixo. Basta você clicar sobre o item desejado e arrastar até o campo \"Dados Utilizados\"."
+      },
+      "interactive-microregion": {
+        "title": "Selecione as microrregiões e as características desejadas",
+        "content": "Para a construção dos gráficos, por favor selecione as microrregiões e as características desejadas no componente de drag & drop abaixo. Basta você clicar sobre o item desejado e arrastar até o campo \"Dados Utilizados\"."
+      },
+      "interactive-municipalities": {
+        "title": "Selecione os municípios e as características desejadas",
+        "content": "Para a construção dos gráficos, por favor selecione os municípios e as características desejadas no componente de drag & drop abaixo. Basta você clicar sobre o item desejado e arrastar até o campo \"Dados Utilizados\"."
+      }
+    }
+  },
+  "top-n": {
+    "subtitle": "Escolha os atributos para visualizar as N regiões mais altas ou baixas",
+    "microregions-in-mesoregion": "Microrregiões contidas na Mesorregião",
+    "municipalities-in-microregion": "Municípios contidos na Microrregião",
+    "info": {
+      "title": "Ranqueamento de elementos",
+      "content": "Nesta tela é possível definir parâmetros de ranqueamento para visualizar as regiões que melhor ou pior performam em relação a um dado atributo em um determinado período."
+    },
+    "header": {
+      "help-num-elements": "Quantidade de municípios, microrregiões e mesorregiões que serão apresentadas. Por exemplo, o valor 5 indica que serão apresentadas 5 posições no ranking para cada.",
+      "num-elements": "N° de Elementos",
+      "attribute": "Atributo Desejado",
+      "help-attribute": "O Ranking leva em consideração um atributo. Para qual dos atributos de seu projeto você deseja ver o ranking?",
+      "period": "Período Desejado",
+      "help-period": "O Ranking leva tem como referência um período. Você deseja ranquear os períodos de qual período?",
+      "toggle": "Exibir dos maiores para menores",
+      "toggle-help": "Você deseja ver os dados em ordem crescente ou decrescent?",
+      "toggle-zero": "Ignorar zero",
+      "toggle-zero-help": "O valor 0 pode influenciar na sua visualização. Portanto, você tem a opção de ignorá-lo no ranqueamento.",
+      "submit": "Aplicar"
+    }
+  },
+  "components": {
+    "select-project-warning": {
+      "title": "Por favor, selecione um projeto",
+      "content": "Para utilização do VYR é necessária a seleção de um projeto. Você pode fazer isso indo até a página de projetos ou utilizando o ícone de filtro no canto superior direito da tela."
+    },
+    "expander": {
+      "expand": "Clique para ver este componente em tela inteira",
+      "close": "Clique para ver este componente em tela normal"
+    },
+    "region-selector": {
+      "level": "Nível de região",
+      "select-level": "Selecione um nível de região",
+      "input-name": "Digite o nome da localidade desejada"
+    }
+  },
+  "parametric-search": {
+    "main": {
+      "title": "Selecione os critérios da busca",
+      "box-title": "Selecione critérios de busca",
+      "box-content": "Nesta tela você tem a opção de determinar N critérios de filtragem e obter as mesorregiões, microrregiões e municípios que se encaixem nas regras definidas por você. Para tal, clique no botão de filtro no canto direito desta tela."
+    },
+    "criterions": {
+      "title": "Parâmetros selecionados",
+      "help": "Os valores podem decimais podem aparecer ocultados para números a partir de mil por conta do arredondamento. Entretanto, eles serão considerados no cálculo."
+    },
+    "fields": {
+      "attribute": "Atributo",
+      "operation": "Operação",
+      "period": "Período",
+      "value": "Valor",
+      "add-criterion": "Adicionar"
+    },
+    "options": {
+      "equal": "Igual",
+      "different": "Diferente",
+      "lower-than": "Menor que",
+      "lower-equal-than": "Menor ou igual a",
+      "greater-than": "Maior que",
+      "greater-equal-than": "Maior ou igual a",
+      "contain": "Contém",
+      "not-contain": "Não Contém"
+    },
+    "modal": {
+      "title": "Selecione os critérios de busca desejados",
+      "clear-all": "Limpar todos"
+    }
+  },
+  "uf": {
+    "AC": "Acre",
+    "AL": "Alagoas",
+    "AP": "Amapá",
+    "AM": "Amazonas",
+    "BA": "Bahia",
+    "CE": "Ceará",
+    "ES": "Espírito Santo",
+    "GO": "Goiás",
+    "MA": "Maranhão",
+    "MT": "Mato Grosso",
+    "MS": "Mato Grosso do Sul",
+    "MG": "Minas Gerais",
+    "PA": "Pará",
+    "PB": "Paraíba",
+    "PR": "Paraná",
+    "PE": "Pernambuco",
+    "PI": "Piauí",
+    "RJ": "Rio de Janeiro",
+    "RN": "Rio Grande do Norte",
+    "RS": "Rio Grande do Sul",
+    "RO": "Rondônia",
+    "RR": "Roraima",
+    "SC": "Santa Catarina",
+    "SP": "São Paulo",
+    "SE": "Sergipe",
+    "TO": "Tocantins",
+    "DF": "Distrito Federal"
+  }
+}
