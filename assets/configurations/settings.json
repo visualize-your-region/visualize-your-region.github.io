@@ -1,0 +1,75 @@
+{
+  "constants": {
+    "cssOverride": {
+      "pallete-primary": "#535D6C",
+      "pallete-accent": "#00a1f1",
+      "sidenav-width": "200px",
+      "state-map-stroke-municipy": "#72706F",
+      "state-map-stroke-microregion": "blue",
+      "state-map-stroke-mesoregion": "#1F1A17",
+      "state-map-fill": "#f2e3c4",
+      "state-map-fill-hover": "#1371dd",
+      "state-map-fill-disabled": "#e5dede",
+      "map-color-value-0": "white",
+      "state-map-pallete-type-1-level-1": "#ffffb2",
+      "state-map-pallete-type-1-level-2": "#fecc5c",
+      "state-map-pallete-type-1-level-3": "#fd8d3c",
+      "state-map-pallete-type-1-level-4": "#f03b20",
+      "state-map-pallete-type-1-level-5": "#bd0026",
+      "state-map-pallete-balance-positive": "#5cb85c",
+      "state-map-pallete-balance-half-positive": "#addbad",
+      "state-map-pallete-balance-half-negative": "#eca9a6",
+      "state-map-pallete-balance-negative": "#d9534f",
+      "state-map-pallete-balance-zero": "#fefefe",
+      "state-map-min-max-municipy-0": "#ffffb2",
+      "state-map-min-max-municipy-1": "#fecc5c",
+      "state-map-min-max-municipy-2": "#fd8d3c",
+      "state-map-min-max-municipy-3": "#f03b20",
+      "state-map-min-max-municipy-4": "#bd0026",
+      "state-map-percentile-municipy-0": "#ffffb2",
+      "state-map-percentile-municipy-1": "#fecc5c",
+      "state-map-percentile-municipy-2": "#fd8d3c",
+      "state-map-percentile-municipy-3": "#f03b20",
+      "state-map-percentile-municipy-4": "#bd0026",
+      "state-map-log-municipy-0": "#ffffb2",
+      "state-map-log-municipy-1": "#fecc5c",
+      "state-map-log-municipy-2": "#fd8d3c",
+      "state-map-log-municipy-3": "#f03b20",
+      "state-map-log-municipy-4": "#bd0026",
+      "country-map-fill": "#f2e3c4",
+      "country-map-fill-hover": "#f2e3c4",
+      "country-map-fill-disabled": "#e5dede",
+      "country-map-fill-active": "#1371dd",
+      "country-map-stroke": "#1F1A17"
+    },
+    "states": {
+      "default": "BA",
+      "supported": ["BA", "SE", "AL", "RJ", "ES", "RR", "AM", "DF", "AC", "RO", "MS", "AP", "TO", "PA"]
+    },
+    "language": {
+      "default": "en-us",
+      "supported": ["pt-br", "en-us"]
+    },
+    "logo": {
+      "forMenu": "assets/img/logo/logo-vertical.png",
+      "forHeader": "assets/img/logo/logo-horizontal-light.png"
+    },
+    "api": {
+      "host": "https://es3.vyr.hugodeiro.com/assets/mocks/projects",
+      "projects": "https://es3.vyr.hugodeiro.com/assets/mocks/projects.json",
+      "upload": "SHOULD-BREAK"
+    }
+  },
+  "featureFlags": {
+    "home": false,
+    "map": true,
+    "projects": true,
+    "comparison": true,
+    "top-n": true,
+    "region-details": true,
+    "parametric-search": true,
+    "delete-project": false,
+    "create-project": false,
+    "download-project-source": false
+  }
+}
