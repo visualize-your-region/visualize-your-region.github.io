@@ -55,8 +55,8 @@
       "forHeader": "assets/img/logo/logo-horizontal-light.png"
     },
     "api": {
-      "host": "https://es3.vyr.hugodeiro.com/assets/mocks/projects",
-      "projects": "https://es3.vyr.hugodeiro.com/assets/mocks/projects.json",
+      "host": "https://raw.githubusercontent.com/visualize-your-region/visualize-your-region.github.io/refs/heads/master/assets/mocks/projects",
+      "projects": "https://raw.githubusercontent.com/visualize-your-region/visualize-your-region.github.io/refs/heads/master/assets/mocks/projects.json",
       "upload": "SHOULD-BREAK"
     }
   },
